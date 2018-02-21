@@ -6,7 +6,7 @@
  * @todo add populateUsers function
  * @todo add populateReminders function
  */
-const ObjectId = require('mongoose').Types.ObjectId;
+const { Types: { ObjectId } } = require('mongoose');
 const jwt = require('jsonwebtoken');
 
 module.exports = {

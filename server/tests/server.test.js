@@ -3,10 +3,11 @@
  * @todo add seed data require
  * @todo all the tests
 */
-const mongoose = require('mongoose');
 const chai = require('chai');
 const chaiHttp = require('chai-http');
-const server = require('../server');
+const { Types: { ObjectId }} = require('mongoose');
+const { app } = require('../server');
+
 const should = chai.should();
 
 // Middleware
