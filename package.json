@@ -1,0 +1,19 @@
+{
+  "name": "remindmeto",
+  "version": "1.0.0",
+  "description": "Remind me to do this or that.",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwats/remind-me-to.git"
+  },
+  "author": "Eric Julius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwats/remind-me-to/issues"
+  },
+  "homepage": "https://github.com/dwats/remind-me-to#readme"
+}
